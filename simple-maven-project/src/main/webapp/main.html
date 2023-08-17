@@ -5,7 +5,23 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Hello from web</h1>
+<form action="form" method="get">
+    Name:<input name="userName"><br>
+    Age:<input name="userAge" type="number"><br>
+    Gender:<input name="gender" type="radio" value="male" checked>Male
+    <input name="gender" type="radio" value="female">Female<br>
+
+    Country:<select name="country">
+    <option>Belarus</option>
+    <option>Kazakhstan</option>
+    <option>USA</option>
+</select><br>
+    Courses:
+    <input type="checkbox" name="courses" value="Java">Java
+    <input type="checkbox" name="courses" value="Java Script">Java Script
+    <input type="checkbox" name="courses" value="C++">C++ <br>
+
+</form>
 
 </body>
 </html>
